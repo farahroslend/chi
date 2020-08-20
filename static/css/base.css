@@ -56,6 +56,10 @@ body {
     border: 1px solid black !important;
 }
 
+div.laptop-screen-navbar
+
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -77,5 +81,9 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+
+    div.laptop-screen-navbar {
+    display: none; !important;
     }
 }
