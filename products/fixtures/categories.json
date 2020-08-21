@@ -1,0 +1,43 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "sports_apparel",
+      "friendly_name": "Sports Apparel"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "weight_lifting",
+      "friendly_name": "Weight Lifting"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "yoga",
+      "friendly_name": "Yoga"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "detox_tea",
+      "friendly_name": "Detox Tea"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "vitamins_minerals",
+      "friendly_name": "Vitamins & Minerals"
+    }
+  }
+
+]

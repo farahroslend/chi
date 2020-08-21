@@ -1,0 +1,257 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Full Body Activewear",
+      "description": "Cotton-like sweat absorbing fabric, embedded with our patented antimicrobial technology to minimse body odour. This stretchable, one-size-fits all sports apparel is truly made for comfortable moving, both for him and for her.",
+      "price": 75.00,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://images.app.goo.gl/4WTUp6fC5vKmaSZ5A",
+      "image": "sports_wear_1.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Compression Arm Sleeves",
+      "description": "Improve blood circulation, protect your arms from work out shear and muscle soreness, with our durable and long-lasting arm sleeves.",
+      "price": 20.00,
+      "category": 1,
+      "rating": 4.5,
+      "image_url": "https://images.app.goo.gl/duEaSvShPZH9fRhHA",
+      "image": "sports_wear_2.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Fitbit",
+      "description": "Find your fit with this Fitbit to help you stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.",
+      "price": 35.00,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://images.app.goo.gl/MLNhmoKysorUA27A8",
+      "image": "sports_wear_3.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "Half Sports Cap",
+      "description": "Protect your eyes from the piercing rays while jogging out and about in the open, while keeping your head cool with the wind brushing through your hair as you jog. Exotic polyester material made from India.",
+      "price": 14.99,
+      "category": 1,
+      "rating": 4,
+      "image_url": "https://images.app.goo.gl/HEHSDfzs29kCeXcs7",
+      "image": "sports_wear_4.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "Cooling Towel",
+      "description": "This high-quality towel begins to cool the second it touches water. It's chemical-free, and it can be machine-washed.",
+      "price": 30.00,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://images.app.goo.gl/HRqRBVqCGdnQbE7D8",
+      "image": "sports_wear_5.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "Weight Lifting Bar",
+      "description": "The ideal bar for your weight-lifting training sessions. Chrome-plated 20 kg bar, 50 mm diameter sleeve and 28 mm bar diameter.",
+      "price": 78.50,
+      "category": 2,
+      "rating": 5,
+      "image_url": "https://images.app.goo.gl/mSSgsYqoc5mZidaj7",
+      "image": "WL_1.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "Opti Cast Iron Weight Plates - 2 x 10kg",
+      "description": "Machine calibrated for next-level precision, these durable cast-iron KG plates are accurate to within 10 grams in weight.",
+      "price": 59.99,
+      "category": 2,
+      "rating": 4.3,
+      "image_url": "https://images.app.goo.gl/VABHeM2oGzkskgqz8",
+      "image": "WL_2.jpeg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "25KG Olympic Weight plates 5cm Rubber Coated Iron Plates Tri Grip Dumbbell Barbell Plate",
+      "description": "This weight disk can be used with the weight lifting bar in pairs, or independently lifted as it is for backbone strength training, and arm muscles development.",
+      "price": 45.00,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "https://images.app.goo.gl/ixXCFt9XgdNFciEM8",
+      "image": "WL_3.jpeg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "Rei Jade Yoga Mat",
+      "description": "Exclusive waterproof, durable and floor gripping yoga mat decorated in tribal patterns. Imported from South Africa.",
+      "price": 69.99,
+      "category": 3,
+      "rating": 4.9,
+      "image_url": "https://images.app.goo.gl/bGRmNAy5cqz28QCB8",
+      "image": "Y_1.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "Essence Incense - 30 x 6 sticks",
+      "description": "Hand blended and rolled in India according to ancient traditions. Contains all pure and natural ingredients, including, essential oils, herbs, and wood gums 
+                        can be used for aromatherapy, yoga, meditation, healing, prayer and romance.
+                        Premium incense, each scent comes in individual gift package with beautiful holder. Flavours include: Ocean, Morning Blossom,Jasmine tea,Rose Geranium,Sandalwood spice, and Lavender Rosemary.",
+      "price": 99.99,
+      "category": 3,
+      "rating": 5.0,
+      "image_url": "https://images.app.goo.gl/JCUt74Ah19Xbi5AW7",
+      "image": "Y_3.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002761055",
+      "name": "Hatha Yoga Illustrated",
+      "description": "Experience the physical benefits and body awareness from hatha yoga—the most popular form of yoga today. Hatha Yoga Illustrated presents nearly 650 full-color photos to visually demonstrate 77 standard poses from hatha yoga that apply to all major hatha styles including Iyengar, Astanga, Anusara, and Bikram.",
+      "price": 24.99,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://images.app.goo.gl/ff9AvdDzsFTW2yma7",
+      "image": "Y_3.jpg"
+    }
+  },
+  
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820069",
+      "name": "Elastic Pull Rope",
+      "description": "120cm long, high tensile strength, elastic rope. The yoga rope exercise is good for blood circulation, reducing leg aches and for providing relief from constipation (because you know, when you stretch the rope you're also training your lower abdomen muscles to contract harder.)",
+      "price": 9.99,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://images.app.goo.gl/Tk3nsF6ZKcgioCEw8",
+      "image": "Y_4.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820147",
+      "name": "Lemongrass and Ginger Pyramid Tea Bags x 10",
+      "description": "Bathe your spirit in a cup that clears the senses. A zesty swirl of finest lemongrass, a spicy lift of ginger and you're ready to soar. Drink whenever you want to rejoice, sit back and breathe.",
+      "price": 10.50,
+      "category": 4,
+      "rating": 3.2,
+      "image_url": "https://images.app.goo.gl/WRGRksjDWZMbEH2A9",
+      "image": "DT_1.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002910572",
+      "name": "Green Tea & Peach Prism Tea Bag x 15",
+      "description": "This full flavoured, aromatic green tea with strong peach undertones is a plentiful source of anti-oxidants, which are known for their cleansing and detoxifying qualities and contains less caffeine than black tea, making it a wonderful substitute that can be enjoyed throughout the day.",
+      "price": 24.99,
+      "category": 4,
+      "rating": 4.7,
+      "image_url": "https://images.app.goo.gl/4jzM6TJKfdK26ZDW7",
+      "image": "DT_2.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002990740",
+      "name": "Hibiscus Tea x 12 Pyramid Bags",
+      "description": "SHibiscus tea has been known to prevent hypertension, lower blood pressure, reduce blood sugar levels, keep your liver healthy, help with menstrual cramps, help with depression, aid digestion and help with weight management.",
+      "price": 18.99,
+      "category": 4,
+      "rating": 4.8,
+      "image_url": "https://images.app.goo.gl/Q8zrV4c17XtCFbEM6",
+      "image": "DT_3.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003050248",
+      "name": "Whole Food Based Multivitamin",
+      "description": "LifeEssence™ is the world's most profound multiple, combining vitamins, minerals, trace elements, enzymes and co-nutrients with the equivalent of over 44,000 mg of pure SuperFoods, adaptogens and superior herbs. In these foods are phytochemicals and energizes that holistic health practitioners have used for millennia to build optimal health. 240 tablets.",
+      "price": 75.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "VM_1.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003070787",
+      "name": "Prunes Essence x 3 Bottles",
+      "description": "Prune Essence with Vitamin E is high in fiber and contains resistant maltodextrin, a soluble fiber that promotes regular bowel movement. InnerShine Prune Essence with Vitamin E also helps protect the cells from oxidation. Each bottle carries 50mL of the essence.",
+      "price": 13.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+      "image": "VM_2.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090182",
+      "name": "All Organic, Natural Energy Bar",
+      "description": "Homemade gluten free 85% cacao mixed in mildly sweeted greek yogurt, honeyed almonds and oven-baked crispy oats rolled into a delicious grab-and-go bar. 200g per piece.",
+      "price": 4.99,
+      "category": 5,
+      "rating": 4.8,
+      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+      "image": "VM_3.jpg"
+    }
+  }
+]
