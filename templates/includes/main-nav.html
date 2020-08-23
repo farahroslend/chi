@@ -18,10 +18,10 @@
                 Work Out
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Sports Apparel</a>
-                <a href="" class="dropdown-item">Weight Lifting</a>
-                <a href="" class="dropdown-item">Yoga</a>
-                <a href="" class="dropdown-item">All Gears</a>
+                <a href="{% url 'products' %}?category=sports_apparel" class="dropdown-item">Sports Apparel</a>
+                <a href="{% url 'products' %}?category=weight_lifting" class="dropdown-item">Weight Lifting</a>
+                <a href="{% url 'products' %}?category=yoga" class="dropdown-item">Yoga</a>
+                <a href="{% url 'products' %}?category=sports_apparel,weight_lifting,yoga" class="dropdown-item">All Gears</a>
             </div>
         </li>
 
@@ -30,9 +30,9 @@
                 Power Foods
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Detox Tea</a>
-                <a href="" class="dropdown-item">Vitamins &amp; Minerals</a>
-                <a href="" class="dropdown-item">All Boosters</a>
+                <a href="{% url 'products' %}?category=detox_tea" class="dropdown-item">Detox Tea</a>
+                <a href="{% url 'products' %}?category=vitamins_minerals" class="dropdown-item">Vitamins &amp; Minerals</a>
+                <a href="{% url 'products' %}?category=detox_tea,vitamins_minerals" class="dropdown-item">All Boosters</a>
             </div>
         </li>
 
