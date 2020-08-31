@@ -68,6 +68,11 @@ div.laptop-screen-navbar
 	z-index: -1;
 }
 
+mark {
+  background-color: rgb(168, 186, 233);
+  color: black;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
