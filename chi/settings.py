@@ -116,16 +116,30 @@ WSGI_APPLICATION = 'chi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://htmlyioldiksad:dd3b0fed94f95e004fe6ec73e297a2990c543054830fbf4b3a1c9281f166ea13@ec2-54-228-209-117.eu-west-1.compute.amazonaws.com:5432/d17hitraesdfje')
-}
+# DATABASES = {
+#     'default': dj_database_url.parse('postgres://htmlyioldiksad:dd3b0fed94f95e004fe6ec73e297a2990c543054830fbf4b3a1c9281f166ea13@ec2-54-228-209-117.eu-west-1.compute.amazonaws.com:5432/d17hitraesdfje')
+# }
+
+#draft Jeroku deployment
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
