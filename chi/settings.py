@@ -26,7 +26,7 @@ SECRET_KEY = 'hk7z3o+!hn_xle5)*_!1iph6ssojo-s5=_3oow8zuf_d_@$vqn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chi-draft.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['chi-official.herokuapp.com', 'localhost']
 
 
 # Application definition
