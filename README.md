@@ -41,7 +41,7 @@ User stories:
 
 ## Deployment on Heroku
 
-### Heroku Deployment Steps 
+### Heroku Deployment Steps & Debugging
 
 1. Go to the Heroku Website and create new app
 2. Create requirements.txt and Procfile to tell heroku what is required to run the app
@@ -51,6 +51,16 @@ User stories:
 5. Restart all dynos
 6. Finally do an initial git commit and push to heroku
 
+Note: There are some additional steps and extensive troubleshooting work to successfuly deploy the website to Heroku, which includes:
+- integration of whitenoise to allow images to be seen in the Heroku hosting interface 
+- using the following commands to create superuser in the Heroku app to understand why no data from json files are showing in the Heroku deployed version
+       
+       * `$ heroku run python manage.py createsuperuser`
+       * `$ git push -f heroku master`
+       * `$ heroku run python manage.py migrate`
+- manual addition of products into the django database, since there is a bug somehow for preventing data from the json files to be read in the Heroku interface (no such issues with the development version via gitpod IDE; website works well)
+
+Deployed website from Heroku can be found here: https://chi-official.herokuapp.com/
 
 ## Acknowledgements
 - [BoutiqueAdo Project by Code Institute](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d90bfac64e564b41a177b65c34a63502/?activate_block_id=block-v1%3ACodeInstitute%2BFSF_102%2BQ1_2020%2Btype%40sequential%2Bblock%40d90bfac64e564b41a177b65c34a63502) For all the apps in this website; modified html, css and json files to fit the requirements of the business logic.
