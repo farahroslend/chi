@@ -178,7 +178,7 @@ USE_TZ = True
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/', '/media/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
